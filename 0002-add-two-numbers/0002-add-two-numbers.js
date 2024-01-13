@@ -36,6 +36,7 @@ var addTwoNumbers = function(l1, l2) {
     if(temp){
         result.next=new ListNode(temp)
     }
+   // console.log(temp);
    return(curR.next);
 
 };
