@@ -21,7 +21,6 @@ var swapPairs = function(head) {
      prev=curr;
      curr=curr.next;
     }
-    console.log(dummy.next)
     return dummy.next
     
 };
